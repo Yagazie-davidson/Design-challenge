@@ -79,7 +79,7 @@ const CompanyInfoForm = () => {
         {/* Company Name */}
         <div className="grid w-full items-center gap-1.5">
           <Label htmlFor="company-name" className="text-[#17171FCC]">
-            Company's Name
+            Company&apos;s Name
           </Label>
           <Input
             type="text"
@@ -96,7 +96,7 @@ const CompanyInfoForm = () => {
         {/* Company's Website */}
         <div className="grid w-full items-center gap-1.5">
           <Label htmlFor="company-website" className="text-[#17171FCC]">
-            Company's Website
+            Company&apos;s Website
           </Label>
           <Input
             type="text"
@@ -113,7 +113,7 @@ const CompanyInfoForm = () => {
         {/* Company's LinkedIn */}
         <div className="grid w-full items-center gap-1.5">
           <Label htmlFor="company-linkedin" className="text-[#17171FCC]">
-            Company's Linkedin
+            Company&apos;s Linkedin
           </Label>
           <Input
             type="text"
@@ -131,7 +131,7 @@ const CompanyInfoForm = () => {
         {/* Company's Industry */}
         <div className="grid w-full items-center gap-1.5">
           <Label htmlFor="company-industry" className="text-[#17171FCC]">
-            Company's Industry
+            Company&apos;s Industry
           </Label>
           <Input
             type="text"
@@ -171,7 +171,7 @@ const CompanyInfoForm = () => {
       {/* Company's description */}
       <div className="grid w-full items-center gap-1.5 mt-6">
         <Label htmlFor="company-description" className="text-[#17171FCC]">
-          Company's description
+          Company&apos;s description
         </Label>
         <Input
           type="text"
