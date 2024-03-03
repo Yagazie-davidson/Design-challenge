@@ -11,7 +11,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-
 import Image from "next/image";
 import { useForm } from "react-hook-form";
 
@@ -45,7 +44,7 @@ const CompanyInfoForm = () => {
   return (
     <form className="w-full mt-8 md:mt-14" onSubmit={handleSubmit(onSubmit)}>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center md:justify-between md:items-start w-full">
-        <div className="flex items-center gap-x-8 justify-center">
+        <div className="flex items-center gap-x-8 justify-center md:justify-start">
           <Image
             src={CompanyLogo}
             alt="Company Logo"
